@@ -1,0 +1,402 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Powershop Testing Report</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Aug 02 13:53:55 NZST 2015<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:100</td>
+<td title="Message">Navigate to Account Statement</td>
+</tr>
+
+<tr>
+<td>5376</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:105</td>
+<td title="Message">Verify the Account Statement is highlight</td>
+</tr>
+
+<tr>
+<td>5413</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:108</td>
+<td title="Message">Verify date filter</td>
+</tr>
+
+<tr>
+<td>6612</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:114</td>
+<td title="Message">Verify csv file</td>
+</tr>
+
+<tr>
+<td>6613</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:116</td>
+<td title="Message">Compare data between Page and CSV</td>
+</tr>
+
+<tr>
+<td>6669</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>TestBase.java:265</td>
+<td title="Message">Data in the CVS 26.47 does not contains 26.47c on the page</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">org.junit.ComparisonFailure: expected:&lt;26.47[c]&gt; but was:&lt;26.47[]&gt;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.Assert.assertEquals(Assert.java:125)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.Assert.assertEquals(Assert.java:147)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at co.nz.powershop.base.TestBase.verifyEquals(TestBase.java:262)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at co.nz.powershop.testcases.PowershopFunctionalTest.testAccountStatement(PowershopFunctionalTest.java:118)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Method.java:606)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.Suite.runChild(Suite.java:128)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.Suite.runChild(Suite.java:24)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:98)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.main(JUnitCore.java:45)
+</td></tr>
+
+<tr>
+<td>6706</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>TestBase.java:265</td>
+<td title="Message">Data in the CVS -$2.12 does not contains ($2.12) on the page</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">org.junit.ComparisonFailure: expected:&lt;[($2.12)]&gt; but was:&lt;[-$2.12]&gt;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.Assert.assertEquals(Assert.java:125)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.Assert.assertEquals(Assert.java:147)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at co.nz.powershop.base.TestBase.verifyEquals(TestBase.java:262)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at co.nz.powershop.testcases.PowershopFunctionalTest.testAccountStatement(PowershopFunctionalTest.java:120)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Method.java:606)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.Suite.runChild(Suite.java:128)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.Suite.runChild(Suite.java:24)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:98)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.main(JUnitCore.java:45)
+</td></tr>
+
+<tr>
+<td>6707</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:123</td>
+<td title="Message">Verify pdf file</td>
+</tr>
+
+<tr>
+<td>6922</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:126</td>
+<td title="Message">Compare data between Page and PDF</td>
+</tr>
+
+<tr>
+<td>6977</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>TestBase.java:292</td>
+<td title="Message">Data in the PDF does not contains Purchase refund on the page</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">java.lang.AssertionError
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.Assert.fail(Assert.java:92)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.Assert.assertTrue(Assert.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.Assert.assertTrue(Assert.java:54)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at co.nz.powershop.base.TestBase.verifyTrue(TestBase.java:289)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at co.nz.powershop.testcases.PowershopFunctionalTest.testAccountStatement(PowershopFunctionalTest.java:128)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Method.java:606)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.Suite.runChild(Suite.java:128)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.Suite.runChild(Suite.java:24)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:98)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.main(JUnitCore.java:45)
+</td></tr>
+
+<tr>
+<td>7071</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>TestBase.java:292</td>
+<td title="Message">Data in the PDF does not contains 26.47c on the page</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">java.lang.AssertionError
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.Assert.fail(Assert.java:92)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.Assert.assertTrue(Assert.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.Assert.assertTrue(Assert.java:54)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at co.nz.powershop.base.TestBase.verifyTrue(TestBase.java:289)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at co.nz.powershop.testcases.PowershopFunctionalTest.testAccountStatement(PowershopFunctionalTest.java:128)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Method.java:606)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.Suite.runChild(Suite.java:128)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.Suite.runChild(Suite.java:24)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:98)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.main(JUnitCore.java:45)
+</td></tr>
+
+<tr>
+<td>7105</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>TestBase.java:292</td>
+<td title="Message">Data in the PDF does not contains ($2.12) on the page</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">java.lang.AssertionError
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.Assert.fail(Assert.java:92)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.Assert.assertTrue(Assert.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.Assert.assertTrue(Assert.java:54)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at co.nz.powershop.base.TestBase.verifyTrue(TestBase.java:289)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at co.nz.powershop.testcases.PowershopFunctionalTest.testAccountStatement(PowershopFunctionalTest.java:128)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Method.java:606)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.Suite.runChild(Suite.java:128)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.Suite.runChild(Suite.java:24)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:98)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.junit.runner.JUnitCore.main(JUnitCore.java:45)
+</td></tr>
+
+<tr>
+<td>11637</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:53</td>
+<td title="Message">Login powershop account</td>
+</tr>
+
+<tr>
+<td>14679</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:56</td>
+<td title="Message">View all your previous account statements online here</td>
+</tr>
+
+<tr>
+<td>20300</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:68</td>
+<td title="Message">Navigate to AverageUnitPrices</td>
+</tr>
+
+<tr>
+<td>25814</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:72</td>
+<td title="Message">Verify the Average Unit Prices is highlight</td>
+</tr>
+
+<tr>
+<td>25859</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:75</td>
+<td title="Message">Get data from barchart</td>
+</tr>
+
+<tr>
+<td>50422</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:78</td>
+<td title="Message">Get data from table</td>
+</tr>
+
+<tr>
+<td>50634</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:81</td>
+<td title="Message">Compare barchart data and table data</td>
+</tr>
+
+<tr>
+<td>50634</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="co.nz.powershop.testcases.PowershopFunctionalTest category">co.nz.powershop.testcases.PowershopFunctionalTest</td>
+<td>PowershopFunctionalTest.java:86</td>
+<td title="Message">Verify averageUnitPrices value</td>
+</tr>

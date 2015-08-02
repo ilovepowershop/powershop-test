@@ -1,0 +1,139 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.17|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+NPSWF32_15_0_0_189.dll|$
+C:\Windows\system32\Macromed\Flash\NPSWF32_15_0_0_189.dll|$
+15.0.0.189|$
+1414613410844|0|0|0|$
+Shockwave Flash 15.0 r0|$
+Shockwave Flash|$
+2
+0|application/x-shockwave-flash|Adobe Flash movie|swf|$
+1|application/futuresplash|FutureSplash movie|spl|$
+npGoogleUpdate3.dll|$
+C:\Program Files\Google\Update\1.3.25.5\npGoogleUpdate3.dll|$
+1.3.25.5|$
+1413792447774|0|0|0|$
+Google Update|$
+Google Update|$
+2
+0|application/x-vnd.google.update3webcontrol.3|||$
+1|application/x-vnd.google.oneclickctrl.9|||$
+npqscall.dll|$
+C:\Program Files\Common Files\Tencent\NPQSCALL\npqscall.dll|$
+1.90.4903.0|$
+1411622714265|0|0|0|$
+QQ2013 Firefox Plugin|$
+QQ2013 Firefox Plugin|$
+1
+0|application/qscall-plugin||dll|$
+npchrome.dll|$
+C:\Program Files\Common Files\Tencent\Npchrome\npchrome.dll|$
+1.90.4903.0|$
+1411622714177|0|0|0|$
+QQ2013 Chrome Plugin for Chrome V23.0.1271.64 or latest version|$
+QQ2013 Chrome Plugin for Chrome V23.0.1271.64 or latest version|$
+1
+0|application/npchrome-plugin|DLL|dll|$
+npjp2.dll|$
+C:\Program Files\Java\jre7\bin\plugin2\npjp2.dll|$
+10.55.2.14|$
+1397463260000|0|0|0|$
+Next Generation Java Plug-in 10.55.2 for Mozilla browsers|$
+Java(TM) Platform SE 7 U55|$
+38
+0|application/x-java-applet|Java Applet||$
+1|application/x-java-bean|JavaBeans||$
+2|application/x-java-vm|||$
+3|application/x-java-applet;version=1.1.1|||$
+4|application/x-java-bean;version=1.1.1|||$
+5|application/x-java-applet;version=1.1|||$
+6|application/x-java-bean;version=1.1|||$
+7|application/x-java-applet;version=1.2|||$
+8|application/x-java-bean;version=1.2|||$
+9|application/x-java-applet;version=1.1.3|||$
+10|application/x-java-bean;version=1.1.3|||$
+11|application/x-java-applet;version=1.1.2|||$
+12|application/x-java-bean;version=1.1.2|||$
+13|application/x-java-applet;version=1.3|||$
+14|application/x-java-bean;version=1.3|||$
+15|application/x-java-applet;version=1.2.2|||$
+16|application/x-java-bean;version=1.2.2|||$
+17|application/x-java-applet;version=1.2.1|||$
+18|application/x-java-bean;version=1.2.1|||$
+19|application/x-java-applet;version=1.3.1|||$
+20|application/x-java-bean;version=1.3.1|||$
+21|application/x-java-applet;version=1.4|||$
+22|application/x-java-bean;version=1.4|||$
+23|application/x-java-applet;version=1.4.1|||$
+24|application/x-java-bean;version=1.4.1|||$
+25|application/x-java-applet;version=1.4.2|||$
+26|application/x-java-bean;version=1.4.2|||$
+27|application/x-java-applet;version=1.5|||$
+28|application/x-java-bean;version=1.5|||$
+29|application/x-java-applet;version=1.6|||$
+30|application/x-java-bean;version=1.6|||$
+31|application/x-java-applet;version=1.7|||$
+32|application/x-java-bean;version=1.7|||$
+33|application/x-java-applet;jpi-version=1.7.0_55|||$
+34|application/x-java-bean;jpi-version=1.7.0_55|||$
+35|application/x-java-vm-npruntime|||$
+36|application/x-java-applet;deploy=10.55.2|||$
+37|application/x-java-applet;javafx=2.2.55|||$
+npdeployJava1.dll|$
+C:\Program Files\Java\jre7\bin\dtplugin\npdeployJava1.dll|$
+10.55.2.14|$
+1397463256000|0|0|0|$
+NPRuntime Script Plug-in Library for Java(TM) Deploy|$
+Java Deployment Toolkit 7.0.550.14|$
+1
+0|application/java-deployment-toolkit|||$
+NPSPWRAP.DLL|$
+C:\PROGRA~1\MICROS~1\Office15\NPSPWRAP.DLL|$
+15.0.4514.1000|$
+1390449372000|0|0|0|$
+The plugin allows you to have a better experience with Microsoft SharePoint|$
+Microsoft Office 2013|$
+2
+0|application/x-sharepoint|SharePoint Plug-in for Firefox||$
+1|application/x-sharepoint-uc|||$
+npnv3dv.dll|$
+C:\Program Files\NVIDIA Corporation\3D Vision\npnv3dv.dll|$
+7.17.13.3165|$
+1382450570000|0|0|0|$
+NVIDIA 3D Vision plugin for Mozilla browsers|$
+NVIDIA 3D Vision|$
+3
+0|image/jps|JPEG-based stereo image|jps|$
+1|image/pns|PNG-based stereo image|pns|$
+2|image/mpo|Multi-Picture Format image|mpo|$
+npnv3dvstreaming.dll|$
+C:\Program Files\NVIDIA Corporation\3D Vision\npnv3dvstreaming.dll|$
+7.17.13.3165|$
+1382450570000|0|0|0|$
+NVIDIA 3D Vision Streaming plugin for Mozilla browsers|$
+NVIDIA 3D VISION|$
+1
+0|application/mozilla-3dv-streaming-plugin|npnv3dvstreaming|rts|$
+npwachk.dll|$
+C:\Program Files\Winamp Detect\npwachk.dll|$
+1.0.0.1|$
+1374620266000|0|0|0|$
+Winamp Application Detector|$
+Winamp Application Detector|$
+1
+0|application/x-winampx-1.0.0.1|winamp||$
+npSSOAxCtrlForPTLogin.dll|$
+C:\Program Files\Common Files\Tencent\TXSSO\1.2.2.1\Bin\npSSOAxCtrlForPTLogin.dll|$
+1.0.1.10|$
+1365402240000|0|0|0|$
+QQ QuickLogin Helper|$
+Tencent SSO Platform|$
+1
+0|application/nptxsso|TXSSO||$
+
+[INVALID]
